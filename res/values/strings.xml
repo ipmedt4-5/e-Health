@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">e-Health</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="help">Welkom bij de eHealth app gebaseerd op de werken van Nictiz. Deze applicatie is een vereenvoudigde weergave van de eHealth tabel in "Ordering in de wereld van eHealth (Nictiz 2012)".
+Mocht u niet precies weten wat de tabel inhoudt dan vindt u instructies op deze pagina.</string>
+<string name="ezorg"><b><u>e-Zorg -> e-Care, e-Therapie en e-Diagnose.</u></b></string>
+</resources>

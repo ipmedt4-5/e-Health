@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="40dp"
+        android:text="Kies uw categorie"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eZorg>eDiagnose"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+<TableRow
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+     >
+
+    <ImageButton
+        android:id="@+id/zwediagnose"
+       	android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:background="@drawable/zorgverlener_werkcontextbutton"
+        android:paddingLeft="16dp" />
+
+    <ImageButton
+        android:id="@+id/zzediagnose"
+     	android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:paddingRight="16dp"
+        android:background="@drawable/zorgverlener_zorgverlenerbutton"
+         />
+
+</TableRow>
+
+<TableRow
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+     >
+    	<ImageButton
+        android:id="@+id/zpediagnose"
+   		android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:background="@drawable/zorgverlener_patientbutton" 
+        android:paddingLeft="16dp"/>
+    
+      	<ImageButton
+        android:id="@+id/zaediagnose"
+   		android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:background="@drawable/zorgverlener_anderenbutton" 
+        android:paddingLeft="16dp"/>
+</TableRow>
+
+    <TableRow 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    >
+    
+    <ImageButton
+        android:id="@+id/ppediagnose"
+       android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:background="@drawable/patient_patientbutton" 
+        android:paddingLeft="16dp" />
+
+    <ImageButton
+        android:id="@+id/paediagnose"
+        android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:background="@drawable/patient_anderenbutton" 
+        android:paddingLeft="16dp" />
+
+    <ImageButton
+        android:id="@+id/plediagnose"
+       android:layout_width="105dip"
+        android:layout_height="125dip"
+        android:paddingRight="16dp"
+        android:background="@drawable/patient_levenssfeerbuttons" 
+        android:paddingLeft="16dp"/>
+</TableRow>
+
+</LinearLayout>
+
+</ScrollView>
