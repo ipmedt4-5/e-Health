@@ -108,6 +108,10 @@
     	android:name=".EtherapiePA">
 	</activity>
 	
+		<activity
+    	android:name=".Searchable">
+	</activity>
+	
 	
     </application>
 
